@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoltX Motors | Drive the Future</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="logo-text">VoltX</h1>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">VoltX <span class="accent">Motors</span></a>
+            <ul class="nav-links">
+                <li><a href="#models">Models</a></li>
+                <li><a href="#tech">Technology</a></li>
+                <li><a href="#network">Network</a></li>
+                <li><a href="#sustainability">Impact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+                <a href="#book" class="btn btn-outline">Test Drive</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-bg">
+            <img src="images/hero.jpg" alt="VoltX Concept EV">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content reveal">
+            <h1 class="glitch-text">Drive the <span class="text-gradient">Future</span></h1>
+            <p>Experience the pinnacle of sustainable mobility. Zero emissions, zero compromises.</p>
+            <div class="hero-buttons">
+                <a href="#models" class="btn btn-primary">Explore Models</a>
+                <a href="#book" class="btn btn-secondary">Reserve Now</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="models" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Our Fleet</h2>
+            <div class="grid models-grid">
+                <div class="model-card glass reveal">
+                    <img src="images/voltX-s1.jpg" alt="VoltX S1">
+                    <div class="model-info">
+                        <h3>VoltX S1</h3>
+                        <p class="model-type">Luxury Sedan</p>
+                        <div class="specs">
+                            <div class="spec-item"><i class="fas fa-road"></i> <span>675 km</span></div>
+                            <div class="spec-item"><i class="fas fa-bolt"></i> <span>1.9s 0-100</span></div>
+                            <div class="spec-item"><i class="fas fa-tachometer-alt"></i> <span>320 km/h</span></div>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">Configure</a>
+                    </div>
+                </div>
+                <div class="model-card glass reveal" style="transition-delay: 0.2s;">
+                    <img src="images/voltX-x.jpg" alt="VoltX X">
+                    <div class="model-info">
+                        <h3>VoltX X</h3>
+                        <p class="model-type">AWD SUV</p>
+                        <div class="specs">
+                            <div class="spec-item"><i class="fas fa-road"></i> <span>612 km</span></div>
+                            <div class="spec-item"><i class="fas fa-bolt"></i> <span>2.8s 0-100</span></div>
+                            <div class="spec-item"><i class="fas fa-tachometer-alt"></i> <span>257 km/h</span></div>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">Configure</a>
+                    </div>
+                </div>
+                <div class="model-card glass reveal" style="transition-delay: 0.4s;">
+                    <img src="images/voltX-gt.jpg" alt="VoltX GT">
+                    <div class="model-info">
+                        <h3>VoltX GT</h3>
+                        <p class="model-type">Hyper Grand Tourer</p>
+                        <div class="specs">
+                            <div class="spec-item"><i class="fas fa-road"></i> <span>800 km</span></div>
+                            <div class="spec-item"><i class="fas fa-bolt"></i> <span>1.7s 0-100</span></div>
+                            <div class="spec-item"><i class="fas fa-tachometer-alt"></i> <span>402 km/h</span></div>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">Configure</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="section alt-bg">
+        <div class="container">
+            <div class="tech-layout reveal">
+                <div class="tech-text">
+                    <h2 class="section-title">QuantumCore™ Battery</h2>
+                    <p>Our proprietary solid-state battery architecture delivers unprecedented energy density, drastically reducing charging times while maximizing range and longevity.</p>
+                    <ul class="tech-list">
+                        <li><i class="fas fa-check-circle accent"></i> 80% charge in 12 minutes</li>
+                        <li><i class="fas fa-check-circle accent"></i> AI-driven thermal management</li>
+                        <li><i class="fas fa-check-circle accent"></i> V2G (Vehicle-to-Grid) capable</li>
+                    </ul>
+                </div>
+                <div class="tech-visual glass">
+                    <div class="battery-stat">
+                        <div class="stat-header"><span>Energy Density</span> <span>+40%</span></div>
+                        <div class="bar-bg"><div class="bar-fill blue-fill" style="width: 0%" data-target="90%"></div></div>
+                    </div>
+                    <div class="battery-stat">
+                        <div class="stat-header"><span>Thermal Efficiency</span> <span>98%</span></div>
+                        <div class="bar-bg"><div class="bar-fill green-fill" style="width: 0%" data-target="98%"></div></div>
+                    </div>
+                    <div class="battery-stat">
+                        <div class="stat-header"><span>Degradation (160k km)</span> <span>< 5%</span></div>
+                        <div class="bar-bg"><div class="bar-fill blue-fill" style="width: 0%" data-target="5%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="network" class="section">
+        <div class="container">
+            <h2 class="section-title text-center reveal">VoltGrid Network</h2>
+            <p class="text-center subtitle reveal">Power up anywhere. The world's fastest-growing hyper-charging infrastructure.</p>
+            <div class="map-container glass reveal" id="network-map" role="button" tabindex="0" aria-label="Open full network map">
+                <div class="map-overlay"></div>
+            </div>
+            <div class="image-modal" id="map-modal" aria-hidden="true">
+                <div class="image-modal-backdrop" id="map-modal-backdrop"></div>
+                <div class="image-modal-content" role="dialog" aria-modal="true" aria-label="Network map">
+                    <button class="modal-close" id="map-modal-close" aria-label="Close map">×</button>
+                    <img src="images/map.jpg" alt="VoltGrid Network Map">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustainability" class="section alt-bg text-center">
+        <div class="container">
+            <h2 class="section-title reveal">Driving Toward Zero Emissions</h2>
+            <div class="grid stats-grid">
+                <div class="stat-box reveal">
+                    <h3 class="counter" data-target="150000">0</h3>
+                    <p>Tons of CO2 Offset</p>
+                </div>
+                <div class="stat-box reveal" style="transition-delay: 0.2s;">
+                    <h3 class="counter" data-target="100">0</h3><span>%</span>
+                    <p>Renewable Factory Energy</p>
+                </div>
+                <div class="stat-box reveal" style="transition-delay: 0.4s;">
+                    <h3 class="counter" data-target="25000">0</h3>
+                    <p>Vehicles Delivered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Driver Experiences</h2>
+            <div class="grid testimonial-grid">
+                <div class="testimonial-card glass reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"The acceleration on the VoltX S1 is mind-bending. But what really impressed me is the AI autopilot system. It's like driving in the year 2050."</p>
+                    <div class="author">- Elena R., Los Angeles</div>
+                </div>
+                <div class="testimonial-card glass reveal" style="transition-delay: 0.2s;">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"I take my VoltX X off-road every weekend. The battery range completely erased my range anxiety, and the dual motors handle any terrain effortlessly."</p>
+                    <div class="author">- Marcus T., Denver</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="section alt-bg">
+        <div class="container form-container glass reveal">
+            <h2 class="section-title">Schedule a Test Drive</h2>
+            <form id="booking-form" onsubmit="event.preventDefault(); alert('Booking Request Sent!');">
+                <div class="input-group">
+                    <input type="text" required placeholder="Full Name">
+                    <input type="email" required placeholder="Email Address">
+                </div>
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected>Select Model</option>
+                        <option value="s1">VoltX S1</option>
+                        <option value="x">VoltX X</option>
+                        <option value="gt">VoltX GT</option>
+                    </select>
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Confirm Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid footer-grid">
+            <div class="footer-brand">
+                <h2 class="logo-text">VoltX</h2>
+                <p>Redefining motion through electricity.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Vehicles</h3>
+                <ul>
+                    <li><a href="#">VoltX S1</a></li>
+                    <li><a href="#">VoltX X</a></li>
+                    <li><a href="#">VoltX GT</a></li>
+                    <li><a href="#">Fleet Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <div class="newsletter-input">
+                    <input type="email" placeholder="Enter your email">
+                    <button><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 VoltX Motors. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -221,6 +221,17 @@ input, select {
 [data-theme="light"] input, [data-theme="light"] select { background: rgba(0, 0, 0, 0.03); color: var(--text-primary); }
 input:focus, select:focus { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 15px var(--accent-blue-glow); }
 
+/* Select dropdown options visibility */
+select option {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 0.8rem;
+}
+[data-theme="light"] select option {
+    background: #ffffff;
+    color: #111111;
+}
+
 /* Footer */
 footer { background: #000; border-top: 1px solid var(--glass-border); padding: 5rem 0 2rem; color: #fff; }
 [data-theme="light"] footer { background: #e5e5ea; color: #111; }
